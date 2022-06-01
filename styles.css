@@ -18,25 +18,26 @@ body {
     display: block;
     background: #fff;
     width: 500px;
-    height: 180px;
+    height: 160px;
     border-radius: 10px;
     margin: 0 auto;
     padding: 50px;
     text-align: left;
     position: relative;
     border-bottom: 1px solid #f1f1f1;
+    max-width: 100%;
 }
 .start {
-    font-size: 24px;
+    font-size: 18px;
     color: #000;
 }
 .to {
-    font-size: 14px;
+    font-size: 10px;
     color: #666;
     text-transform: uppercase;
 }
 .end {
-    font-size: 24px;
+    font-size: 18px;
     color: #000;
 }
 .time {
@@ -52,17 +53,19 @@ body {
     text-align: right;
 }
 .time__label, .distance__label {
-    font-size: 14px;
+    font-size: 10px;
     color: #666;
     text-transform: uppercase;
 }
 .time__content, .distance__content {
-    font-size: 32px;
+    font-size: 24px;
+    padding-top: 8px;
 }
 .time__content-label, .distance__content-label {
-    font-size: 14px;
+    font-size: 10px;
     color: #666;
     text-transform: uppercase;
+    padding-left: 2px;
 }
 
 @media screen and (min-width: 600px) {
@@ -78,4 +81,7 @@ body {
         border: 1px solid #f1f1f1;
         margin-bottom: 20px;
     }
+}
+.map-image {
+    width: 100%;
 }
